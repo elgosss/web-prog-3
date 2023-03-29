@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Горохова Елена</title>
+    </head>
+    <body>
+        <div id="main_2">
+            <script>
+                "use strict";
+                let x = parseFloat(prompt('Введите x'));
+                let y = parseFloat(prompt('Введите y'));
+                let z = parseFloat(prompt('Введите z'));
+                document.write('<p>b = f(x, y, z)</p>');
+                document.write('<img src="z2.jpg" height="50px">');
+                function b(x, y, z) {
+                    return Math.pow(Math.pow(Math.exp(1), Math.sin(x)), 1/3) * Math.cos(y) / (z*z + 1);
+                }
+                document.write('<p> b = ' + b(x, y, z) + '</p>');
+                document.write('<p><em>Горохова Елена</em><p/>');
+            </script>
+        </div>
+    </body>
+</html>
